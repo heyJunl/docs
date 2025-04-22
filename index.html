@@ -12,13 +12,36 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: "<p>Document</p>",
+      nameLink: 'https://github.com/heyJunl/docs',
+      themeColor: '#007be8', // 主题颜色
+      auto2top: true,  //当路线改变时,滚动到屏幕的顶部
+      loadNavbar: true,//_navbar.md如果为真，则从_navbar.md文件加载navbar ，否则从指定的路径加载
+      mergeNavbar: true,//Navbar将在小屏幕上与侧边栏合并
+      executeScript: true,//执行页面上的脚本。只解析第一个脚本标记（演示）。如果存在Vue，则默认开
+      maxLevel: 6,//最大的内容表级别
+      //subMaxLevel: 6,//在自定义边栏中添加目录（TOC)
+      externalLinkTarget: '_blank', //外链打开方式：_blank表示在新标签页中打开
+      coverpage: true,
+      onlyCover: true,
+      topMargin: 60,//调整top
+      //executeScript: true,//执行页面上的脚本，仅解析第一个脚本标签
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 搜索',
+        noData: '😒 找不到结果',
+        // Headline depth, 1 - 6
+        depth: 6,
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      },//添加搜索框
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 </body>
 </html>
