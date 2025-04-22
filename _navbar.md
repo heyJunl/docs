@@ -1,0 +1,10 @@
+- [<span class="iconfont icon-book3"></span> 配置](https://github.com/heyJunl/docs)
+- [<span class="iconfont icon-icon_fabu"></span> 项目文档](README.md)
+    - [EasyCrm](https://yamimeal.atlassian.net/wiki/spaces/ES1/pages/1204486156/V1.0)
+    - [PocketStore](https://yamimeal.atlassian.net/wiki/spaces/PocketStor/pages/1072726034/Pocket+Store+1.0)
+    - [ChatApp](https://yamimeal.atlassian.net/wiki/spaces/PocketStor/pages/1107066881/AI+PS+CHAT+APP+v1.0)
+
+- [<span class="iconfont icon-lianjie"></span> 项目地址](README.md)
+    - [EasyCrm](https://gitlab.sjfood.us/easycrm/easycrm.api.core)
+    - [PocketStore](https://gitlab.sjfood.us/pocketstore/PocketStore.v1.Api)
+    - [EasyCrmHub](https://gitlab.sjfood.us/easycrm/easycrm.hub)
